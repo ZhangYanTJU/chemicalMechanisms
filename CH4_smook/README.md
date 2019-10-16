@@ -26,7 +26,13 @@ NC7H16
 ```
 chemkinToFoam chem-smook.inp therm-smook-all.dat ../transportProperties CH4_smook.OFchem CH4_smook.OFtherm
 ```
-You will get `CH4_smook.OFchem` and `CH4_smook.OFtherm`
+You will get `CH4_smook.OFchem` and `CH4_smook.OFtherm`.
+In thermophysicalProperties:
+```
+chemistryReader foamChemistryReader;
+foamChemistryFile "grimech30.OFmech";
+foamChemistryThermoFile "grimech30.OFthermo";
+```
 
 # FlameMaster
 ```
@@ -43,4 +49,4 @@ You will get `CH4_smook.cti`
 
 # Source
 
-https://www.sciencedirect.com/science/article/pii/S0010218009000789#aep-bibliography-id31
+https://link.springer.com/book/10.1007%2FBFb0035362
