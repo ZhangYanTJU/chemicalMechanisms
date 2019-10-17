@@ -30,7 +30,7 @@ You will get `CH4_smook.OFchem` and `CH4_smook.OFtherm`.
 In thermophysicalProperties:
 ```
 chemistryReader foamChemistryReader;
-foamChemistryFile "grimech30.OFmech";
+foamChemistryFile "grimech30.OFchem";
 foamChemistryThermoFile "grimech30.OFthermo";
 ```
 

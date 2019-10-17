@@ -26,7 +26,13 @@ NC7H16
 ```
 chemkinToFoam chem.inp therm.dat ../transportProperties nC7H16_sk68.OFchem nC7H16_sk68.OFtherm
 ```
-You will get `nC7H16_sk68.OFchem` and `nC7H16_sk68.OFtherm`
+You will get `nC7H16_sk68.OFchem` and `nC7H16_sk68.OFtherm`.
+In thermophysicalProperties:
+```
+chemistryReader foamChemistryReader;
+foamChemistryFile "nC7H16_sk68.OFchem";
+foamChemistryThermoFile "nC7H16_sk68.OFthermo";
+```
 
 # FlameMaster
 ```
