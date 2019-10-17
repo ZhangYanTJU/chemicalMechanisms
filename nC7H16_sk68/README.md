@@ -1,3 +1,9 @@
+# Intro
+| fuelName      | NC7H16 |
+| species       | 68       |
+| reactions     | 283        |
+
+
 # pre-processing
 ```
 dos2unix chem.inp
@@ -18,9 +24,6 @@ sed -r -i "s/CH2\(S\)/CH2-S /g" therm.dat # CH2(S) --> CH2-S
 sed -r -i "s/CH2\(S\)/CH2-S /g" tran.dat # CH2(S) --> CH2-S
 sed -i 's/./ /79' therm.dat # let $79 column be a space
 ```
-
-# fuelName
-NC7H16
 
 # OpenFOAM
 ```

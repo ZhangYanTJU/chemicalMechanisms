@@ -1,3 +1,8 @@
+# Intro
+| fuelName      | CH4 |
+| species       | 16       |
+| reactions     | 35        |
+
 # pre-processing
 ```
 dos2unix chem-smook.inp
@@ -19,8 +24,7 @@ sed -i '1i THERMO ALL' therm-smook-all.dat # add a line
 sed -i 's/./ /79' therm-smook-all.dat # let $79 column be a space
 ```
 
-# fuelName
-NC7H16
+
 
 # OpenFOAM
 ```
