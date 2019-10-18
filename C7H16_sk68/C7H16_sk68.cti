@@ -33,7 +33,7 @@ ideal_gas(name='gas',
                      C2H3O1-2    C2H3CO      C2H3CHO     C3H5O
                      C4H7O       C3H5-A      C3H3        C3H2
                      CH2-S       NC3H7CHO    NC3H7CO     C2H5COCH2
-                     CH3CHCO     NC3H7COCH3  NC3H7COCH2  NC7H16
+                     CH3CHCO     NC3H7COCH3  NC3H7COCH2  C7H16
                      C7H15-1     C7H15       C7H15O2     C7H14OOH
                      C7H14OOHO2  C7H14O      NC7KET      N2""",
           reactions='all',
@@ -995,7 +995,7 @@ species(name='NC3H7COCH2',
                                 well_depth=489.084),
         note='2/22/96THERM')
 
-species(name='NC7H16',
+species(name='C7H16',
         atoms='C:7 H:16',
         thermo=(NASA([300.00, 1391.00],
                      [-1.26836187E+00,  8.54355820E-02, -5.25346786E-05,
@@ -2832,138 +2832,138 @@ reaction('CH2O + CO => CH2-S + CO2', [2.852000e+15, -0.89, 65520.0])
 # 245
 
 # Reaction 463
-reaction('NC7H16 => H + C7H15', [1.625000e+88, -21.01, 139500.0])
+reaction('C7H16 => H + C7H15', [1.625000e+88, -21.01, 139500.0])
 
 # Reaction 464
-reaction('H + C7H15 => NC7H16', [5.207000e+80, -19.67, 38890.0])
+reaction('H + C7H15 => C7H16', [5.207000e+80, -19.67, 38890.0])
 # 246
 
 # Reaction 465
-reaction('NC7H16 => C5H11-1 + C2H5', [8.100000e+77, -17.62, 120400.0])
+reaction('C7H16 => C5H11-1 + C2H5', [8.100000e+77, -17.62, 120400.0])
 
 # Reaction 466
-reaction('C5H11-1 + C2H5 => NC7H16', [8.297000e+67, -16.05, 32350.0])
+reaction('C5H11-1 + C2H5 => C7H16', [8.297000e+67, -16.05, 32350.0])
 # 247
 
 # Reaction 467
-reaction('NC7H16 => PC4H9 + NC3H7', [1.415000e+78, -17.71, 120700.0])
+reaction('C7H16 => PC4H9 + NC3H7', [1.415000e+78, -17.71, 120700.0])
 
 # Reaction 468
-reaction('PC4H9 + NC3H7 => NC7H16', [1.363000e+68, -16.11, 32460.0])
+reaction('PC4H9 + NC3H7 => C7H16', [1.363000e+68, -16.11, 32460.0])
 # 248
 
 # Reaction 469
-reaction('NC7H16 + H => C7H15-1 + H2', [1.880000e+05, 2.75, 6280.0])
+reaction('C7H16 + H => C7H15-1 + H2', [1.880000e+05, 2.75, 6280.0])
 
 # Reaction 470
-reaction('C7H15-1 + H2 => NC7H16 + H', [8.926000e+03, 2.7, 10550.0])
+reaction('C7H15-1 + H2 => C7H16 + H', [8.926000e+03, 2.7, 10550.0])
 # 249
 
 # Reaction 471
-reaction('NC7H16 + H => C7H15 + H2', [6.500000e+06, 2.4, 4471.0])
+reaction('C7H16 + H => C7H15 + H2', [6.500000e+06, 2.4, 4471.0])
 # 250
 
 # Reaction 472
-reaction('NC7H16 + O => C7H15-1 + OH', [1.930000e+05, 2.68, 3716.0])
+reaction('C7H16 + O => C7H15-1 + OH', [1.930000e+05, 2.68, 3716.0])
 
 # Reaction 473
-reaction('C7H15-1 + OH => NC7H16 + O', [4.025000e+03, 2.63, 5893.0])
+reaction('C7H15-1 + OH => C7H16 + O', [4.025000e+03, 2.63, 5893.0])
 # 251
 
 # Reaction 474
-reaction('NC7H16 + O => C7H15 + OH', [2.385000e+05, 2.71, 2106.0])
+reaction('C7H16 + O => C7H15 + OH', [2.385000e+05, 2.71, 2106.0])
 # 252
 
 # Reaction 475
-reaction('NC7H16 + OH => C7H15-1 + H2O', [1.050000e+10, 0.97, 1590.0])
+reaction('C7H16 + OH => C7H15-1 + H2O', [1.050000e+10, 0.97, 1590.0])
 
 # Reaction 476
-reaction('C7H15-1 + H2O => NC7H16 + OH', [1.500000e+10, 1.05, 23330.0])
+reaction('C7H15-1 + H2O => C7H16 + OH', [1.500000e+10, 1.05, 23330.0])
 # 253
 
 # Reaction 477
-reaction('NC7H16 + OH => C7H15 + H2O', [2.350000e+08, 1.61, -35.0])
+reaction('C7H16 + OH => C7H15 + H2O', [2.350000e+08, 1.61, -35.0])
 # 254
 
 # Reaction 478
-reaction('NC7H16 + HO2 => C7H15-1 + H2O2', [1.680000e+13, 0.0, 20440.0])
+reaction('C7H16 + HO2 => C7H15-1 + H2O2', [1.680000e+13, 0.0, 20440.0])
 
 # Reaction 479
-reaction('C7H15-1 + H2O2 => NC7H16 + HO2', [2.050000e+13, -0.38, 8399.0])
+reaction('C7H15-1 + H2O2 => C7H16 + HO2', [2.050000e+13, -0.38, 8399.0])
 # 255
 
 # Reaction 480
-reaction('NC7H16 + HO2 => C7H15 + H2O2', [2.800000e+13, 0.0, 17690.0])
+reaction('C7H16 + HO2 => C7H15 + H2O2', [2.800000e+13, 0.0, 17690.0])
 
 # Reaction 481
-reaction('C7H15 + H2O2 => NC7H16 + HO2', [4.348000e+11, 0.01, 8165.0])
+reaction('C7H15 + H2O2 => C7H16 + HO2', [4.348000e+11, 0.01, 8165.0])
 # 256
 
 # Reaction 482
-reaction('NC7H16 + CH3 => C7H15-1 + CH4', [9.040000e-01, 3.65, 7154.0])
+reaction('C7H16 + CH3 => C7H15-1 + CH4', [9.040000e-01, 3.65, 7154.0])
 
 # Reaction 483
-reaction('C7H15-1 + CH4 => NC7H16 + CH3', [1.121000e+00, 3.6, 11910.0])
+reaction('C7H15-1 + CH4 => C7H16 + CH3', [1.121000e+00, 3.6, 11910.0])
 # 257
 
 # Reaction 484
-reaction('NC7H16 + CH3 => C7H15 + CH4', [1.352000e+05, 2.26, 7287.0])
+reaction('C7H16 + CH3 => C7H15 + CH4', [1.352000e+05, 2.26, 7287.0])
 # 258
 
 # Reaction 485
-reaction('NC7H16 + O2 => C7H15-1 + HO2', [6.000000e+13, 0.0, 52800.0])
+reaction('C7H16 + O2 => C7H15-1 + HO2', [6.000000e+13, 0.0, 52800.0])
 
 # Reaction 486
-reaction('C7H15-1 + HO2 => NC7H16 + O2', [5.175000e+10, 0.28, -406.0])
+reaction('C7H15-1 + HO2 => C7H16 + O2', [5.175000e+10, 0.28, -406.0])
 # 259
 
 # Reaction 487
-reaction('NC7H16 + O2 => C7H15 + HO2', [1.000000e+14, 0.0, 50150.0])
+reaction('C7H16 + O2 => C7H15 + HO2', [1.000000e+14, 0.0, 50150.0])
 
 # Reaction 488
-reaction('C7H15 + HO2 => NC7H16 + O2', [1.098000e+09, 0.67, -541.0])
+reaction('C7H15 + HO2 => C7H16 + O2', [1.098000e+09, 0.67, -541.0])
 # 260
 
 # Reaction 489
-reaction('NC7H16 + C2H5 => C7H15-1 + C2H6', [1.000000e+11, 0.0, 13400.0])
+reaction('C7H16 + C2H5 => C7H15-1 + C2H6', [1.000000e+11, 0.0, 13400.0])
 
 # Reaction 490
-reaction('C7H15-1 + C2H6 => NC7H16 + C2H5', [3.200000e+11, 0.0, 12300.0])
+reaction('C7H15-1 + C2H6 => C7H16 + C2H5', [3.200000e+11, 0.0, 12300.0])
 # 261
 
 # Reaction 491
-reaction('NC7H16 + C2H5 => C7H15 + C2H6', [2.500000e+11, 0.0, 10400.0])
+reaction('C7H16 + C2H5 => C7H15 + C2H6', [2.500000e+11, 0.0, 10400.0])
 
 # Reaction 492
-reaction('C7H15 + C2H6 => NC7H16 + C2H5', [1.000000e+11, 0.0, 12900.0])
+reaction('C7H15 + C2H6 => C7H16 + C2H5', [1.000000e+11, 0.0, 12900.0])
 # 262
 
 # Reaction 493
-reaction('NC7H16 + CH3O => C7H15-1 + CH3OH', [3.160000e+11, 0.0, 7000.0])
+reaction('C7H16 + CH3O => C7H15-1 + CH3OH', [3.160000e+11, 0.0, 7000.0])
 
 # Reaction 494
-reaction('C7H15-1 + CH3OH => NC7H16 + CH3O', [1.200000e+10, 0.0, 9200.0])
+reaction('C7H15-1 + CH3OH => C7H16 + CH3O', [1.200000e+10, 0.0, 9200.0])
 # 263
 
 # Reaction 495
-reaction('NC7H16 + CH3O => C7H15 + CH3OH', [5.475000e+11, 0.0, 5000.0])
+reaction('C7H16 + CH3O => C7H15 + CH3OH', [5.475000e+11, 0.0, 5000.0])
 
 # Reaction 496
-reaction('C7H15 + CH3OH => NC7H16 + CH3O', [8.900000e+09, 0.0, 7200.0])
+reaction('C7H15 + CH3OH => C7H16 + CH3O', [8.900000e+09, 0.0, 7200.0])
 # 264
 
 # Reaction 497
-reaction('NC7H16 + CH3O2 => C7H15-1 + CH3O2H', [1.210000e+13, 0.0, 20430.0])
+reaction('C7H16 + CH3O2 => C7H15-1 + CH3O2H', [1.210000e+13, 0.0, 20430.0])
 
 # Reaction 498
-reaction('C7H15-1 + CH3O2H => NC7H16 + CH3O2', [3.600000e+12, 0.0, 9800.0])
+reaction('C7H15-1 + CH3O2H => C7H16 + CH3O2', [3.600000e+12, 0.0, 9800.0])
 # 265
 
 # Reaction 499
-reaction('NC7H16 + CH3O2 => C7H15 + CH3O2H', [2.016000e+13, 0.0, 17700.0])
+reaction('C7H16 + CH3O2 => C7H15 + CH3O2H', [2.016000e+13, 0.0, 17700.0])
 
 # Reaction 500
-reaction('C7H15 + CH3O2H => NC7H16 + CH3O2', [2.376000e+11, 0.0, 3700.0])
+reaction('C7H15 + CH3O2H => C7H16 + CH3O2', [2.376000e+11, 0.0, 3700.0])
 # 266
 
 # Reaction 501

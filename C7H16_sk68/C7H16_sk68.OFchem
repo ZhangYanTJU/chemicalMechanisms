@@ -70,7 +70,7 @@ C2H5COCH2
 CH3CHCO
 NC3H7COCH3
 NC3H7COCH2
-NC7H16
+C7H16
 C7H15-1
 C7H15
 C7H15O2
@@ -171,7 +171,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -408,7 +408,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -487,7 +487,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -621,7 +621,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -721,7 +721,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -940,7 +940,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -1024,7 +1024,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -1103,7 +1103,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -1203,7 +1203,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -1299,7 +1299,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -1417,7 +1417,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -1496,7 +1496,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -1728,7 +1728,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -1824,7 +1824,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -2077,7 +2077,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -2228,7 +2228,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -2346,7 +2346,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -2425,7 +2425,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -2678,7 +2678,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -3114,7 +3114,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -4218,7 +4218,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -4297,7 +4297,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -4415,7 +4415,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -4494,7 +4494,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -4782,7 +4782,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -4861,7 +4861,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -5506,7 +5506,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -5585,7 +5585,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -5771,7 +5771,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -5850,7 +5850,7 @@ reactions
 (CH3CHCO 1)
 (NC3H7COCH3 1)
 (NC3H7COCH2 1)
-(NC7H16 1)
+(C7H16 1)
 (C7H15-1 1)
 (C7H15 1)
 (C7H15O2 1)
@@ -6529,7 +6529,7 @@ reactions
     un-named-reaction-244
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 = H + C7H15";
+        reaction        "C7H16 = H + C7H15";
         forward
         {
             A               1.625e+88;
@@ -6546,7 +6546,7 @@ reactions
     un-named-reaction-245
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 = C5H11-1 + C2H5";
+        reaction        "C7H16 = C5H11-1 + C2H5";
         forward
         {
             A               8.1e+77;
@@ -6563,7 +6563,7 @@ reactions
     un-named-reaction-246
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 = PC4H9 + NC3H7";
+        reaction        "C7H16 = PC4H9 + NC3H7";
         forward
         {
             A               1.415e+78;
@@ -6580,7 +6580,7 @@ reactions
     un-named-reaction-247
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 + H = C7H15-1 + H2";
+        reaction        "C7H16 + H = C7H15-1 + H2";
         forward
         {
             A               188;
@@ -6597,7 +6597,7 @@ reactions
     un-named-reaction-248
     {
         type            irreversibleArrheniusReaction;
-        reaction        "NC7H16 + H = C7H15 + H2";
+        reaction        "C7H16 + H = C7H15 + H2";
         A               6500;
         beta            2.4;
         Ta              2249.768029;
@@ -6605,7 +6605,7 @@ reactions
     un-named-reaction-249
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 + O = C7H15-1 + OH";
+        reaction        "C7H16 + O = C7H15-1 + OH";
         forward
         {
             A               193;
@@ -6622,7 +6622,7 @@ reactions
     un-named-reaction-250
     {
         type            irreversibleArrheniusReaction;
-        reaction        "NC7H16 + O = C7H15 + OH";
+        reaction        "C7H16 + O = C7H15 + OH";
         A               238.5;
         beta            2.71;
         Ta              1059.720749;
@@ -6630,7 +6630,7 @@ reactions
     un-named-reaction-251
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 + OH = C7H15-1 + H2O";
+        reaction        "C7H16 + OH = C7H15-1 + H2O";
         forward
         {
             A               10500000;
@@ -6647,7 +6647,7 @@ reactions
     un-named-reaction-252
     {
         type            irreversibleArrheniusReaction;
-        reaction        "NC7H16 + OH = C7H15 + H2O";
+        reaction        "C7H16 + OH = C7H15 + H2O";
         A               235000;
         beta            1.61;
         Ta              -17.61169336;
@@ -6655,7 +6655,7 @@ reactions
     un-named-reaction-253
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 + HO2 = C7H15-1 + H2O2";
+        reaction        "C7H16 + HO2 = C7H15-1 + H2O2";
         forward
         {
             A               1.68e+10;
@@ -6672,7 +6672,7 @@ reactions
     un-named-reaction-254
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 + HO2 = C7H15 + H2O2";
+        reaction        "C7H16 + HO2 = C7H15 + H2O2";
         forward
         {
             A               2.8e+10;
@@ -6689,7 +6689,7 @@ reactions
     un-named-reaction-255
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 + CH3 = C7H15-1 + CH4";
+        reaction        "C7H16 + CH3 = C7H15-1 + CH4";
         forward
         {
             A               0.000904;
@@ -6706,7 +6706,7 @@ reactions
     un-named-reaction-256
     {
         type            irreversibleArrheniusReaction;
-        reaction        "NC7H16 + CH3 = C7H15 + CH4";
+        reaction        "C7H16 + CH3 = C7H15 + CH4";
         A               135.2;
         beta            2.26;
         Ta              3666.754557;
@@ -6714,7 +6714,7 @@ reactions
     un-named-reaction-257
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 + O2 = C7H15-1 + HO2";
+        reaction        "C7H16 + O2 = C7H15-1 + HO2";
         forward
         {
             A               6e+10;
@@ -6731,7 +6731,7 @@ reactions
     un-named-reaction-258
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 + O2 = C7H15 + HO2";
+        reaction        "C7H16 + O2 = C7H15 + HO2";
         forward
         {
             A               1e+11;
@@ -6748,7 +6748,7 @@ reactions
     un-named-reaction-259
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 + C2H5 = C7H15-1 + C2H6";
+        reaction        "C7H16 + C2H5 = C7H15-1 + C2H6";
         forward
         {
             A               100000000;
@@ -6765,7 +6765,7 @@ reactions
     un-named-reaction-260
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 + C2H5 = C7H15 + C2H6";
+        reaction        "C7H16 + C2H5 = C7H15 + C2H6";
         forward
         {
             A               250000000;
@@ -6782,7 +6782,7 @@ reactions
     un-named-reaction-261
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 + CH3O = C7H15-1 + CH3OH";
+        reaction        "C7H16 + CH3O = C7H15-1 + CH3OH";
         forward
         {
             A               316000000;
@@ -6799,7 +6799,7 @@ reactions
     un-named-reaction-262
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 + CH3O = C7H15 + CH3OH";
+        reaction        "C7H16 + CH3O = C7H15 + CH3OH";
         forward
         {
             A               547500000;
@@ -6816,7 +6816,7 @@ reactions
     un-named-reaction-263
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 + CH3O2 = C7H15-1 + CH3O2H";
+        reaction        "C7H16 + CH3O2 = C7H15-1 + CH3O2H";
         forward
         {
             A               1.21e+10;
@@ -6833,7 +6833,7 @@ reactions
     un-named-reaction-264
     {
         type            nonEquilibriumReversibleArrheniusReaction;
-        reaction        "NC7H16 + CH3O2 = C7H15 + CH3O2H";
+        reaction        "C7H16 + CH3O2 = C7H15 + CH3O2H";
         forward
         {
             A               2.016e+10;

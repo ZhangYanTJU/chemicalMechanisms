@@ -1,11 +1,10 @@
 # Intro
-
 | fuelName      | CH4 |
 | --------------------          | ------------------------------------------------- |
-| species       | 53       |
-| reactions     | 325        |
+| species       | 16       |
+| reactions     | 35        |
 
 
 # Source
 
-http://combustion.berkeley.edu/gri-mech/version30/text30.html
+https://link.springer.com/book/10.1007%2FBFb0035362
