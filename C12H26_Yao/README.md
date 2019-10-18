@@ -54,4 +54,4 @@ You will get `C12H26_Yao.cti`
 
 # Source
 
-https://www.sciencedirect.com/science/article/pii/S0010218009000789#aep-bibliography-id31
+https://doi.org/10.1016/j.fuel.2016.11.083

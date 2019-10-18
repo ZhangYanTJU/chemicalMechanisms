@@ -54,4 +54,4 @@ You will get `C7H16_sk68.cti`
 
 # Source
 
-https://www.sciencedirect.com/science/article/pii/S0010218009000789#aep-bibliography-id31
+https://doi.org/10.1016/j.combustflame.2009.02.013
