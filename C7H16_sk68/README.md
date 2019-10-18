@@ -1,5 +1,5 @@
 # Intro
-| fuelName      | NC7H16 |
+| fuelName      | C7H16 |
 | --------------------          | ------------------------------------------------- |
 | species       | 68       |
 | reactions     | 283        |
@@ -29,28 +29,28 @@ sed -i 's/./ /79' therm.dat # let $79 column be a space
 
 # OpenFOAM
 ```
-chemkinToFoam chem.inp therm.dat ../transportProperties nC7H16_sk68.OFchem nC7H16_sk68.OFtherm
+chemkinToFoam chem.inp therm.dat ../transportProperties C7H16_sk68.OFchem C7H16_sk68.OFtherm
 ```
-You will get `nC7H16_sk68.OFchem` and `nC7H16_sk68.OFtherm`.
+You will get `C7H16_sk68.OFchem` and `C7H16_sk68.OFtherm`.
 In thermophysicalProperties:
 ```
 chemistryReader foamChemistryReader;
-foamChemistryFile "nC7H16_sk68.OFchem";
-foamChemistryThermoFile "nC7H16_sk68.OFthermo";
+foamChemistryFile "C7H16_sk68.OFchem";
+foamChemistryThermoFile "C7H16_sk68.OFthermo";
 ```
 
 # FlameMaster
 ```
-ScanMan -i chem.inp -t therm.dat -m tran.dat -f chemkin -o nC7H16_sk68.pre
+ScanMan -i chem.inp -t therm.dat -m tran.dat -f chemkin -o C7H16_sk68.pre
 rm chem.inp.h chem.inp.chmech chem.inp.chthermo chem.inp.chtrans
 ```
-You will get `nC7H16_sk68.pre`
+You will get `C7H16_sk68.pre`
 
 # Cantera
 ```
-python -m cantera.ck2cti --input=chem.inp --thermo=therm.dat --transport=tran.dat --output=nC7H16_sk68.cti
+python -m cantera.ck2cti --input=chem.inp --thermo=therm.dat --transport=tran.dat --output=C7H16_sk68.cti
 ```
-You will get `nC7H16_sk68.cti`
+You will get `C7H16_sk68.cti`
 
 # Source
 
