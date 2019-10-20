@@ -18,6 +18,12 @@ sed -r -i "s/CH2\(S\)/CH2-S /g" chem.inp # CH2(S) --> CH2-S
 sed -r -i "s/CH2\(S\)/CH2-S /g" thermo.dat # CH2(S) --> CH2-S
 sed -r -i "s/CH2\(S\)/CH2-S /g" trans.dat # CH2(S) --> CH2-S
 sed -i 's/./ /79' thermo.dat # let $79 column be a space
+sed -i "s/NC7H16/C7H16 /g" chem.inp # NC7H16 --> C7H16
+sed -i "s/NC7H16/C7H16 /g" thermo.dat # NC7H16 --> C7H16
+sed -i "s/NC7H16/C7H16 /g" trans.dat # NC7H16 --> C7H16
+sed -i "s/NC12H26/C12H26 /g" chem.inp # NC12H26 --> C12H26
+sed -i "s/NC12H26/C12H26 /g" thermo.dat # NC12H26 --> C12H26
+sed -i "s/NC12H26/C12H26 /g" trans.dat # NC12H26 --> C12H26
 ```
 
 # OpenFOAM
@@ -43,5 +49,5 @@ rm chem.inp.h chem.inp.chmech chem.inp.chthermo chem.inp.chtrans
 
 # Cantera
 ```
-ck2cti --input=chem.inp --thermo=thermo.dat --transport=trans.dat --output=$(basename "$PWD").cti
+python -m cantera.ck2cti --input=chem.inp --thermo=thermo.dat --transport=trans.dat --output=$(basename "$PWD").cti
 ```
