@@ -49,5 +49,5 @@ rm chem.inp.h chem.inp.chmech chem.inp.chthermo chem.inp.chtrans
 
 # Cantera
 ```
-python -m cantera.ck2cti --input=chem.inp --thermo=thermo.dat --transport=trans.dat --output=$(basename "$PWD").cti
+ck2cti --input=chem.inp --thermo=thermo.dat --transport=trans.dat --output=$(basename "$PWD").cti
 ```
