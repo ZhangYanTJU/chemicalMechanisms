@@ -42,7 +42,7 @@ foamChemistryThermoFile "***.OFthermo";
 
 # FlameMaster
 ```
-ScanMan -i chem.inp -t thermo.dat -m trans.dat -f chemkin -o $(basename "$PWD").pre -N 0.05
+ScanMan -i chem.inp -t thermo.dat -m trans.dat -f chemkin -o $(basename "$PWD").pre
 rm chem.inp.h chem.inp.chmech chem.inp.chthermo chem.inp.chtrans
 ```
 
