@@ -37,7 +37,7 @@ In thermophysicalProperties:
 ```
 chemistryReader foamChemistryReader;
 foamChemistryFile "***.OFchem";
-foamChemistryThermoFile "***.OFthermo";
+foamChemistryThermoFile "***.OFtherm";
 ```
 
 # FlameMaster
