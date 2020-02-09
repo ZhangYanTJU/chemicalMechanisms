@@ -4,7 +4,7 @@ ideal_gas(name='gas',
           elements="O H C N Ar",
           species="""N2           AR           H            O
                      OH           HO2          H2           H2O
-                     H2O2         O2           CH2          CH2*
+                     H2O2         O2           CH2          CH2-
                      CH3          CH4          HCO          CH2O
                      CH3O         CO           CO2          C2H2
                      C2H3         C2H4         C2H5         C2H6
@@ -199,7 +199,7 @@ species(name='CH2',
                                 well_depth=144.0),
         note='LS/93')
 
-species(name='CH2*',
+species(name='CH2-',
         atoms='C:1 H:2',
         thermo=(NASA([200.00, 1000.00],
                      [ 4.19860411E+00, -2.36661419E-03,  8.23296220E-06,
@@ -1068,40 +1068,40 @@ reaction('CH2 + HO2 <=> CH2O + OH', [2.000000e+13, 0.0, 0.0])
 reaction('CH2 + CH2 <=> C2H2 + H2', [3.200000e+13, 0.0, 0.0])
 
 # Reaction 48
-reaction('CH2* + N2 <=> CH2 + N2', [1.500000e+13, 0.0, 600.0])
+reaction('CH2- + N2 <=> CH2 + N2', [1.500000e+13, 0.0, 600.0])
 
 # Reaction 49
-reaction('CH2* + AR <=> CH2 + AR', [9.000000e+12, 0.0, 600.0])
+reaction('CH2- + AR <=> CH2 + AR', [9.000000e+12, 0.0, 600.0])
 
 # Reaction 50
-reaction('CH2* + O <=> CO + H2', [1.500000e+13, 0.0, 0.0])
+reaction('CH2- + O <=> CO + H2', [1.500000e+13, 0.0, 0.0])
 
 # Reaction 51
-reaction('CH2* + O <=> HCO + H', [1.500000e+13, 0.0, 0.0])
+reaction('CH2- + O <=> HCO + H', [1.500000e+13, 0.0, 0.0])
 
 # Reaction 52
-reaction('CH2* + OH <=> CH2O + H', [3.000000e+13, 0.0, 0.0])
+reaction('CH2- + OH <=> CH2O + H', [3.000000e+13, 0.0, 0.0])
 
 # Reaction 53
-reaction('CH2* + H2 <=> CH3 + H', [7.000000e+13, 0.0, 0.0])
+reaction('CH2- + H2 <=> CH3 + H', [7.000000e+13, 0.0, 0.0])
 
 # Reaction 54
-reaction('CH2* + O2 <=> H + OH + CO', [2.800000e+13, 0.0, 0.0])
+reaction('CH2- + O2 <=> H + OH + CO', [2.800000e+13, 0.0, 0.0])
 
 # Reaction 55
-reaction('CH2* + O2 <=> CO + H2O', [1.200000e+13, 0.0, 0.0])
+reaction('CH2- + O2 <=> CO + H2O', [1.200000e+13, 0.0, 0.0])
 
 # Reaction 56
-reaction('CH2* + H2O <=> CH2 + H2O', [3.000000e+13, 0.0, 0.0])
+reaction('CH2- + H2O <=> CH2 + H2O', [3.000000e+13, 0.0, 0.0])
 
 # Reaction 57
-reaction('CH2* + CO <=> CH2 + CO', [9.000000e+12, 0.0, 0.0])
+reaction('CH2- + CO <=> CH2 + CO', [9.000000e+12, 0.0, 0.0])
 
 # Reaction 58
-reaction('CH2* + CO2 <=> CH2 + CO2', [7.000000e+12, 0.0, 0.0])
+reaction('CH2- + CO2 <=> CH2 + CO2', [7.000000e+12, 0.0, 0.0])
 
 # Reaction 59
-reaction('CH2* + CO2 <=> CH2O + CO', [1.400000e+13, 0.0, 0.0])
+reaction('CH2- + CO2 <=> CH2O + CO', [1.400000e+13, 0.0, 0.0])
 
 # Reaction 60
 falloff_reaction('CH2O + H (+ M) <=> CH3O (+ M)',
@@ -1139,7 +1139,7 @@ reaction('CH3 + O <=> CH2O + H', [8.430000e+13, 0.0, 0.0])
 reaction('CH3 + OH <=> CH2 + H2O', [5.600000e+07, 1.6, 5420.0])
 
 # Reaction 69
-reaction('CH3 + OH <=> CH2* + H2O', [2.501000e+13, 0.0, 0.0])
+reaction('CH3 + OH <=> CH2- + H2O', [2.501000e+13, 0.0, 0.0])
 
 # Reaction 70
 reaction('CH3 + O2 <=> O + CH3O', [3.083000e+13, 0.0, 28800.0])
@@ -1166,7 +1166,7 @@ reaction('CH3 + CH2O <=> CH4 + HCO', [3.320000e+03, 2.81, 5860.0])
 reaction('CH3 + CH2 <=> C2H4 + H', [4.000000e+13, 0.0, 0.0])
 
 # Reaction 78
-reaction('CH3 + CH2* <=> C2H4 + H', [1.200000e+13, 0.0, -570.0])
+reaction('CH3 + CH2- <=> C2H4 + H', [1.200000e+13, 0.0, -570.0])
 
 # Reaction 79
 falloff_reaction('CH3 + CH3 (+ M) <=> C2H6 (+ M)',
@@ -1185,7 +1185,7 @@ reaction('CH3O + H <=> CH2O + H2', [2.000000e+13, 0.0, 0.0])
 reaction('CH3O + H <=> CH3 + OH', [3.200000e+13, 0.0, 0.0])
 
 # Reaction 83
-reaction('CH3O + H <=> CH2* + H2O', [1.600000e+13, 0.0, 0.0])
+reaction('CH3O + H <=> CH2- + H2O', [1.600000e+13, 0.0, 0.0])
 
 # Reaction 84
 reaction('CH3O + O <=> CH2O + OH', [1.000000e+13, 0.0, 0.0])
@@ -1209,7 +1209,7 @@ reaction('CH4 + OH <=> CH3 + H2O', [1.000000e+08, 1.6, 3120.0])
 reaction('CH4 + CH2 <=> CH3 + CH3', [2.460000e+06, 2.0, 8270.0])
 
 # Reaction 91
-reaction('CH4 + CH2* <=> CH3 + CH3', [1.600000e+13, 0.0, -570.0])
+reaction('CH4 + CH2- <=> CH3 + CH3', [1.600000e+13, 0.0, -570.0])
 
 # Reaction 92
 falloff_reaction('C2H3 (+ M) <=> C2H2 + H (+ M)',
@@ -1323,7 +1323,7 @@ reaction('C2H4 + HCO <=> C2H5 + CO', [1.000000e+07, 2.0, 8000.0])
 reaction('C2H4 + CH2 <=> AC3H5 + H', [2.000000e+13, 0.0, 6000.0])
 
 # Reaction 123
-reaction('C2H4 + CH2* <=> AC3H5 + H', [5.000000e+13, 0.0, 0.0])
+reaction('C2H4 + CH2- <=> AC3H5 + H', [5.000000e+13, 0.0, 0.0])
 
 # Reaction 124
 reaction('C2H4 + CH3 <=> C2H3 + CH4', [2.270000e+05, 2.0, 9200.0])
@@ -1387,7 +1387,7 @@ reaction('C2H6 + O <=> C2H5 + OH', [8.980000e+07, 1.92, 5690.0])
 reaction('C2H6 + OH <=> C2H5 + H2O', [3.540000e+06, 2.12, 870.0])
 
 # Reaction 141
-reaction('C2H6 + CH2* <=> C2H5 + CH3', [4.000000e+13, 0.0, -550.0])
+reaction('C2H6 + CH2- <=> C2H5 + CH3', [4.000000e+13, 0.0, -550.0])
 
 # Reaction 142
 reaction('C2H6 + CH3 <=> C2H5 + CH4', [6.140000e+06, 1.74, 10450.0])

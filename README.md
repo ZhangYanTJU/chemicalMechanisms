@@ -14,9 +14,6 @@ echo "" >> chem.inp # add a blank line at the end of chem.inp
 sed -i 1,2d thermo.dat # delete the first 2 lines
 sed -i '1i \ \ \ 200.000  1000.000  5000.000' thermo.dat # add a line
 sed -i '1i THERMO ALL' thermo.dat # add a line
-sed -r -i "s/CH2\(S\)/CH2-S /g" chem.inp # CH2(S) --> CH2-S
-sed -r -i "s/CH2\(S\)/CH2-S /g" thermo.dat # CH2(S) --> CH2-S
-sed -r -i "s/CH2\(S\)/CH2-S /g" trans.dat # CH2(S) --> CH2-S
 sed -i 's/./ /79' thermo.dat # let $79 column be a space
 sed -i "s/NC7H16/C7H16 /g" chem.inp # NC7H16 --> C7H16
 sed -i "s/NC7H16/C7H16 /g" thermo.dat # NC7H16 --> C7H16
@@ -24,6 +21,12 @@ sed -i "s/NC7H16/C7H16 /g" trans.dat # NC7H16 --> C7H16
 sed -i "s/NC12H26/C12H26 /g" chem.inp # NC12H26 --> C12H26
 sed -i "s/NC12H26/C12H26 /g" thermo.dat # NC12H26 --> C12H26
 sed -i "s/NC12H26/C12H26 /g" trans.dat # NC12H26 --> C12H26
+sed -r -i "s/CH2\(S\)/CH2-S /g" chem.inp # CH2(S) --> CH2-S
+sed -r -i "s/CH2\(S\)/CH2-S /g" thermo.dat # CH2(S) --> CH2-S
+sed -r -i "s/CH2\(S\)/CH2-S /g" trans.dat # CH2(S) --> CH2-S
+sed -r -i "s/CH2\*/CH2-/g" chem.inp # CH2* --> CH2-
+sed -r -i "s/CH2\*/CH2-/g" thermo.dat # CH2* --> CH2-
+sed -r -i "s/CH2\*/CH2-/g" trans.dat # CH2* --> CH2-
 ```
 
 # OpenFOAM
