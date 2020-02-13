@@ -44,3 +44,10 @@ platforms/
 *.tgz
 *.gtgz
 
+
+
+*.cti
+*.pre
+*.OFchem
+*.OFthermo
+
