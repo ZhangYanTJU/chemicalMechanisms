@@ -47,6 +47,7 @@ foamChemistryThermoFile "***.OFtherm";
 ```
 ScanMan -i chem.inp -t thermo.dat -m trans.dat -f chemkin -o $(basename "$PWD").pre
 rm chem.inp.h chem.inp.chmech chem.inp.chthermo chem.inp.chtrans
+cp $(basename "$PWD").pre $FM_DATA
 ```
 
 
