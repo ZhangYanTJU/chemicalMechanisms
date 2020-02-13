@@ -50,4 +50,4 @@ platforms/
 *.pre
 *.OFchem
 *.OFthermo
-
+*.OFtherm
