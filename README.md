@@ -75,7 +75,7 @@ rm a.mech a.i a.tex thermo.bin linkfile intmechfile newthermofile chem.out chem.
 ```
 
 
-# ZY
+# PDRs
 
 先把 another way 运行一遍，得到 chemkin 格式的干净版本：chem.chmech chem.chthermo chem.chtrans
 
