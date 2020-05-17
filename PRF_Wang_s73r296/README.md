@@ -1,8 +1,8 @@
 # Intro
 | fuelName      | n-heptane + ico-octane |
 | --------------------          | ------------------------------------------------- |
-| species       | .       |
-| reactions     | .        |
+| species       | 73       |
+| reactions     | 296       |
 
 
 # Source
