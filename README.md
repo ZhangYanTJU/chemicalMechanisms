@@ -31,6 +31,9 @@ sed -i "s/NC12H26/C12H26 /g" trans.dat # NC12H26 --> C12H26
 
 # OpenFOAM
 
+At first, check the first species in `chem.inp`, search it in `thermo.data`, get its Tcommon, i.e. the middle temperature for the temperature range.
+If the Tcommon of the first species is not 1000 K, then replace it with any species whose Tcommon is 1000K.
+
 ```
 chemkinToFoam chem.inp thermo.dat ../transportProperties $(basename "$PWD").OFchem $(basename "$PWD").OFthermo
 ```
@@ -43,19 +46,19 @@ foamChemistryFile "***.OFchem";
 foamChemistryThermoFile "***.OFthermo";
 ```
 
-# FlameMaster
+# FlameMaster-1
 
 ```
 ScanMan -i chem.inp -t thermo.dat -m trans.dat -f chemkin -o $FM_DATA/$(basename "$PWD").pre
 rm chem.inp.h chem.inp.chmech chem.inp.chthermo chem.inp.chtrans
 ```
 
-another way
+## FlameMaster-2
 
 ```
 $FM_BIN/ckintrp3seiser
 ```
-依次输入 
+
 ```
 thermo.dat
 chem.inp
@@ -77,12 +80,12 @@ rm a.mech a.i a.tex thermo.bin linkfile intmechfile newthermofile chem.out chem.
 
 # PDRs
 
-先把 another way 运行一遍，得到 chemkin 格式的干净版本：chem.chmech chem.chthermo chem.chtrans
+run as FlameMaster-2, then we got: chem.chmech chem.chthermo chem.chtrans
 
 ```
 $FM_BIN/ckintrp3seiser
 ```
-依次输入 
+
 ```
 chem.chthermo
 chem.chmech
@@ -93,8 +96,6 @@ linkfile
 ```
 $FM_PATH/Repository/examples/ScanMan/deprecated/Convert_Mechanisms/mechi2tex.perl a.i 1 2
 ```
-
-得到a.mech
 
 ```
 rm a.i a.tex linkfile

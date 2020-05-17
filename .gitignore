@@ -51,3 +51,4 @@ platforms/
 *.OFchem
 *.OFthermo
 *.OFtherm
+elements.xml

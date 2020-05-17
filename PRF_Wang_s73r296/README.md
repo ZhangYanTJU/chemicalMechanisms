@@ -1,11 +1,11 @@
 # Intro
-| fuelName      | C12H26 |
+| fuelName      | n-heptane + ico-octane |
 | --------------------          | ------------------------------------------------- |
-| species       | 100       |
-| reactions     | 432        |
+| species       | .       |
+| reactions     | .        |
 
 
 # Source
 
-https://doi.org/10.1016/j.fuel.2014.07.028
+https://doi.org/10.1021/ef401992e
 https://erc.wisc.edu/chemical-reaction-mechanisms
