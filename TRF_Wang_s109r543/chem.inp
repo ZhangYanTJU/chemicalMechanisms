@@ -5,8 +5,9 @@ ELEMENTS
 H C O N 
 END
 SPECIES
+N2
 C7H16
-O2           N2            CO2          H2O            CO             H2
+O2                       CO2          H2O            CO             H2
 OH           H2O2          HO2          H              O              CH3O
 CH2O         HCO           CH           CH2            CH3            CH4
 C2H2         C2H3          C2H4         C2H5           HCCO           CH2CO
@@ -27,7 +28,6 @@ C5H5         C6H5O         A1-          A2-            A1C2H-         A1C2H
 A1C2H3       A2R5          A3-
 A1           A2            A3           A4
 END
-
 REACTIONS
 !==============C7H16===============
 C7H16<=>H+C7H15-2 1.300E+88 -21.01 1.395E+05
