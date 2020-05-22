@@ -31,8 +31,10 @@ sed -i "s/NC12H26/C12H26 /g" trans.dat # NC12H26 --> C12H26
 
 # OpenFOAM
 
-At first, check the first species in `chem.inp`, search it in `thermo.data`, get its Tcommon, i.e. the middle temperature for the temperature range.
-If the Tcommon of the first species is not 1000 K, then replace it with any species whose Tcommon is 1000K.
+In `chem.inp`, put the dominated species (N2 for most cases) to the first one in the species list. 
+This is an imperfect solution for a potential bug in OpenFOAM.
+In OpenFOAM, the Tcommon of `mixture` is always the Tcommon of the first species.
+
 
 ```
 chemkinToFoam chem.inp thermo.dat ../transportProperties $(basename "$PWD").OFchem $(basename "$PWD").OFthermo
