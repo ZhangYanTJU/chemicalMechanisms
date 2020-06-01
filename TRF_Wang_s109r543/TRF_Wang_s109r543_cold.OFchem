@@ -1,0 +1,27 @@
+elements        List<word> 
+4
+(
+H
+C
+O
+N
+)
+;
+
+species         List<word> 
+109
+(
+N2
+CO2
+H2O
+C7H16
+IC8H18
+)
+;
+
+reactions
+{
+}
+
+Tlow            300;
+Thigh           5000;

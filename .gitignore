@@ -46,9 +46,8 @@ platforms/
 
 
 
-*.cti
-*.pre
-*.OFchem
-*.OFthermo
-*.OFtherm
+#*.cti
+#*.pre
+#*.OFchem
+#*.OFthermo
 elements.xml
