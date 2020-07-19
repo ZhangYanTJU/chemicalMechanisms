@@ -4,6 +4,7 @@
 ! ICEF2016-9304, Proceedings of the ASME 2016 Internal Combustion Fall Technical Conference
 !October 9-12, 2016, Greenville, SC, USA
 ! 56 Species mechanism for n-Heptane oxidation
+! http://www.tdtvt.de/Download/download.php
 ! n-Heptane: C7H16
 ELEMENTS	
 C H O N 	
