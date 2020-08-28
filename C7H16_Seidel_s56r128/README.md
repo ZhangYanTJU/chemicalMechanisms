@@ -11,4 +11,4 @@ https://doi.org/10.1115/1.4036093
 
 # Attention
 
-I think we cannot use this mechanism in FlameMaster, since the unit of the activation energies is JOULES/MOLE.
+I think we cannot use this mechanism in FlameMaster, since the unit of the activation energies is `JOULES/MOLE`, instead the mostly used `cal/mol`.
